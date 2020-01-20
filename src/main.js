@@ -14,7 +14,7 @@ Vue.component('child', {
   // 同样也可以在 vm 实例中像 “this.message” 这样使用
   template: '<span>{{ message }}</span>'
 })
-
+// https://cloud.tencent.com/developer/section/1489864
 // 注册一个全局自定义指令 v-focus
 Vue.directive('focus', {
   // 当绑定元素插入到 DOM 中。
